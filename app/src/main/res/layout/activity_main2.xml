@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewScrlloConflict.Main2Activity">
+
+    <com.example.viewscrollapplication.ViewScrlloConflict.MyLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.example.viewscrollapplication.ViewScrlloConflict.MyView
+                android:id="@+id/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                >
+
+            </com.example.viewscrollapplication.ViewScrlloConflict.MyView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="整体评这首是袭用乐府旧题，意在送友人入蜀。诗人以浪漫主义的手法，展开丰富的想象，艺术地再现了蜀道峥嵘，突兀，强悍、崎岖等奇丽惊险和不可凌越的磅礴气势，借以歌咏蜀地山川的壮秀，显示出祖国山河的雄伟壮丽。
+至于本诗是否有更深的寓意，历代有各种不同看法。然而就诗论诗，不一定强析有寓意。但从诗中，“所守或匪亲，化为狼与豺”看，却是在写蜀地山川峻美的同时，告诫当局，蜀地险要，应好好用人防守。
+诗采用律体与散文间杂，文句参差，笔意纵横，豪放洒脱。全诗感情强烈，一唱三叹，回环反复，读来令人心潮激荡整体把握这首诗大约是天宝（唐玄... 古诗文网>>
+这首诗作于天宝初年。李白虽然托题古调，但从思想内容到艺术形式都是创新的。全诗写出奇险壮丽的景象，将历史、现实、神话交织在一起，纵横捭阖，句式也随着感情的变化参差，充满极浓厚的浪漫主义色彩。通篇紧扣一个“难”字，瑰丽而又神奇，怪不得诗人初入长安，贺知章一读此诗就大为赞赏，称之为“谪仙人”。
+这首诗，大约是唐玄宗天宝初年，李白第一次到长安时写的。《蜀道难》是他袭用乐府古题，展开丰富的想象，着力描绘了秦蜀道路上奇丽惊险的山川，并从中透露了对社会的某些忧虑与关切。"
+                android:textSize="25dp"></TextView>
+        </LinearLayout>
+    </com.example.viewscrollapplication.ViewScrlloConflict.MyLayout>
+</LinearLayout>
